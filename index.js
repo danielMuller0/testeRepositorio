@@ -1,3 +1,10 @@
-let num
+let a = document.getElementById("input")
+let b = document.getElementById("input2")
 
-num = 1
+function botao(){
+
+    let valorA = a.value
+
+    b.value = valorA
+
+}
